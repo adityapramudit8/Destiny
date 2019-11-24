@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  tools:context=".Fragment.HomeFragment"
+                  android:background="#FFF"
+                  android:orientation="vertical">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="BIOLOGY"
+                  android:layout_marginLeft="150dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#FAA61A"
+                  android:fontFamily="@font/circularstd_medium"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textColor="#FAA61A"
+                  android:fontFamily="@font/circularstd_medium"
+                  android:text="MITOKONDRIA"/>
+        <ImageView
+                android:src="@drawable/mitokondria"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="100dp"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:fontFamily="@font/circularstd_medium"
+                  android:textColor="#282133"
+                  android:textSize="14dp"
+                  android:text="Mitokondria banyak terdapat pada sel yang memilki aktivitas metabolisme tinggi dan memerlukan banyak ATP dalam jumlah banyak, misalnya sel otot jantung. Mitokondria terdiri dari empat bagian utama, yaitu membran luar, membran dalam, ruang antar membran, dan matriks yang terletak di bagian dalam membran.
+
+Membran luar terdiri dari protein dan lipid dengan perbandingan yang sama serta mengandung protein porin yang menyebabkan membran ini bersifat permeabel terhadap molekul-molekul kecil yang berukuran 6000 Dalton. Selain itu, membran luar juga mengandung enzim yang terlibat dalam biosintesis lipid dan enzim yang berperan dalam proses transpor lipid ke matriks untuk menjalani β-oksidasi menghasilkan asetil-KoA."/>
+    </LinearLayout>
+</ScrollView>

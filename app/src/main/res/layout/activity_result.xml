@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.ResultActivity">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@drawable/congratulation"
+                android:gravity="center"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:textColor="#282133"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="@font/circularstd_medium"
+                android:gravity="center"
+                android:text="Yeay!
+  Congratulations for your exercise
+   this is your score"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@drawable/rounded_score"
+                android:gravity="center"
+                android:layout_marginTop="280dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:fontFamily="@font/circularstd_medium"
+                android:text="83"
+                android:textSize="50dp"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_marginTop="285dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:id="@+id/btn_done"
+                android:text="Done"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_button_kuning"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginTop="390dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/circularstd_medium"
+                android:textStyle="bold"
+                android:textSize="15dp"
+        />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

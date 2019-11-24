@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  tools:context=".Fragment.HomeFragment"
+                  android:background="#FFF"
+                  android:orientation="vertical">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="Soal 1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FAA61A"
+                    android:fontFamily="@font/circularstd_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="Bahasa Indonesia"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FAA61A"
+                    android:layout_marginLeft="-35dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/circularstd_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="30dp"
+                  android:layout_marginTop="15dp"
+                  android:fontFamily="@font/circularstd_medium"
+                  android:layout_marginLeft="30dp"
+                  android:textColor="#282133"
+                  android:textSize="13dp"
+                  android:text="Mengendarai sepeda motor untuk aktivitas sehari hari memerlukan kenyamanan, apalagi menjelang datangnya musim hujan seperti saat ini. Karena itu, memeriksa kendaraan secara rutn di bengkel mutlak dilakukan agar terhindar dari kecelakaan di jalan raya. perawatan sepedea motor ini dilakukan karena sesuai fungsinya, pengendara pasti mengharapkan sepeda motornya dapat dikendarai dalam berbagai situasi. apakah itu menembus kemacetan, berkelit di tengah padatnya kendaraan, serta tetap tangguh di jalanan basah. Tak jauh berbeda dengan manusia, sepeda motor juga perlu dijaga dan dirawat supaya selalu siap digunakan dan nyaman mengantarkan sang pemilik ke mana saja.
+1. ide pokok paragraf diatas adalah....?"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#282133"
+                  android:textSize="13dp"
+                  android:fontFamily="@font/circularstd_medium"
+                  android:layout_marginLeft="40dp"
+                  android:text="Pilihan jawaban :"/>
+        <TextView android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/background_pilihan">
+            <android.support.v7.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd_medium"
+                        android:textColor="#282133"
+                        android:textSize="13dp"
+                        android:text="Perawatan sepeda motor ini penting dilakukan karena sesuai fungsinya"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginBottom="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/circularstd_medium"
+                        android:textSize="13dp"
+                        android:textColor="#EF6C00"
+                        android:text="Kendaraan bermotor harus layak pakai"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/background_pilihan">
+            <android.support.v7.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/circularstd_medium"
+                        android:textSize="13dp"
+                        android:textColor="#282133"
+                        android:text="Sepeda motor  perlu perawatan yan serius agar tetap nyaman untuk dipakai"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginBottom="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/circularstd_medium"
+                        android:textSize="13dp"
+                        android:textColor="#282133"
+                        android:text="Komponen kendaraan bermotor harus layak pakai"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <Button
+                android:id="@+id/btn_next"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_button_kuning"
+                android:textColor="@android:color/white"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/circularstd_medium"
+        />
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "835171475742",
+    "firebase_url": "https://destiny-7db37.firebaseio.com",
+    "project_id": "destiny-7db37",
+    "storage_bucket": "destiny-7db37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835171475742:android:884112dfb0eaae25",
+        "android_client_info": {
+          "package_name": "com.hariobudiharjo.destiny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835171475742-kf6vuhb2h2lpgje51gnrt9l179tn2kfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hariobudiharjo.destiny",
+            "certificate_hash": "b53bee18a75fe2638f4fd79529d40890aa5c34ae"
+          }
+        },
+        {
+          "client_id": "835171475742-a5apjiueg2js8cck0pqgpttauhc4hsm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmSM89cR_FfFHoHxr5hZs-Y0KtJOaNqlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835171475742-a5apjiueg2js8cck0pqgpttauhc4hsm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

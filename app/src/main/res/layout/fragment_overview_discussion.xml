@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment.OverviewDiscussionFragment">
+
+    <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="Unsur-Unsur"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="14dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="14dp"
+            android:textColor="#282133"
+            android:text="Gimana wujud unsur-unsur Hologen ya mas?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="Mata Pelajaran"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="14dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="14dp"
+            android:textColor="#282133"
+            android:text="Kimia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

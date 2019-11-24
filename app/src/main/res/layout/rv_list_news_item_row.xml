@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:textColor="#4A148C"
+                android:fontFamily="@font/circularstd_medium"
+                android:text="SMA"
+                android:id="@+id/tv_tingkat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:background="@drawable/cd_linear_full">
+
+            <ImageView
+                    android:id="@+id/image_yt_row"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:adjustViewBounds="true"
+                    android:scaleType="center"
+                    android:background="@drawable/cd_image_view_rounded"
+                    android:src="@drawable/student"/>
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:background="@drawable/cd_linear_full"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:maxLines="3"
+                        android:fontFamily="@font/circularstd_medium"
+                        android:textSize="18dp"
+                        android:text="Biologi"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"/>
+                <TextView
+                        android:id="@+id/participant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:maxLines="3"
+                        android:fontFamily="@font/circularstd_medium"
+                        android:textSize="14dp"
+                        android:textColor="#282133"
+                        android:text="13 Participiant"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+                android:fontFamily="@font/circularstd_medium"
+                android:text="18 Juli 1997"
+                android:id="@+id/tv_tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

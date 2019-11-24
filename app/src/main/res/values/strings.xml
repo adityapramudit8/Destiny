@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Destiny</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Hello Student!</string>
+    <string name="slide_1_desc">Learning with Destiny is easy and fun!</string>
+
+    <string name="slide_2_title">Learning Something Different</string>
+    <string name="slide_2_desc">with Destiny you can learn with attractive material</string>
+
+    <string name="slide_3_title">Structured Learning</string>
+    <string name="slide_3_desc">We guide you through serialized learning module to stay focused</string>
+</resources>

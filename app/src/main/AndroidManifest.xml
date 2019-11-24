@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hariobudiharjo.destiny">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/destiny_logo"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/destiny_logo"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="@string/google_maps_key"/>
+
+        <activity
+                android:name=".Activity.MainActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".Activity.IntroActivity"
+                android:theme="@style/AppIntro">
+        </activity>
+        <activity android:name=".Activity.LoginActivity">
+        </activity>
+        <activity android:name=".Activity.SIgnUpActivity">
+        </activity>
+        <activity
+                android:name=".Activity.SplashActivity"
+                android:theme="@style/AppIntro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.DetailFunStudyActivity">
+        </activity>
+        <activity android:name=".Activity.SoalActivity">
+        </activity>
+        <activity android:name=".Activity.MateriActivity">
+        </activity>
+        <activity android:name=".Activity.DetailDiscussionActivity">
+        </activity>
+        <activity android:name=".Activity.DetailCoursesActivity">
+        </activity>
+        <activity android:name=".Activity.LearningCoursesActivity">
+        </activity>
+        <activity android:name=".Activity.ResultActivity">
+        </activity>
+        <activity android:name=".Activity.NewsActivity">
+        </activity>
+        <activity android:name=".Activity.ChatBotActivity">
+        </activity>
+    </application>
+
+</manifest>
